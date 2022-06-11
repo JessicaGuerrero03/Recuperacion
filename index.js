@@ -1,10 +1,9 @@
-// findIndex returns the index of the first element of an array that satisfies the given test function. Otherwise it returns -1.
-//use case example of books read per year
-const array1 = [5, 12, 8, 130, 44, 56];
+//replace returns a new string with some or all matches of a pattern
+//use case select some pet
+const p = 'The quick brown fox jumps over the lazy dog. If the dog reacted, was it really lazy?';
 
-const isLargeNumber = (element) => element > 13;
+console.log(p.replace('dog', 'monkey'));
+// expected output: "The quick brown fox jumps over the lazy monkey. If the dog reacted, was it really lazy?"
 
-console.log(array1.findIndex(isLargeNumber));
-// expected output: 3
-console.log(sumWithInitial);
-// expected output: 10
+const regex = /Dog/i;
+console.log(p.replace(regex, 'ferret'));

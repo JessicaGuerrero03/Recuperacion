@@ -1,12 +1,10 @@
-// reduce executes a reduce function on each element of an array, returning a single value as a result.
-//use case sum of final average
-const array1 = [1, 2, 3, 4, 5];
+// findIndex returns the index of the first element of an array that satisfies the given test function. Otherwise it returns -1.
+//use case example of books read per year
+const array1 = [5, 12, 8, 130, 44];
 
-// 0 + 1 + 2 + 3 + 4
-const initialValue = 0;
-const sumWithInitial = array1.reduce(
-  (previousValue, currentValue) => previousValue + currentValue,
-  initialValue
-);
+const isLargeNumber = (element) => element > 13;
 
+console.log(array1.findIndex(isLargeNumber));
+// expected output: 3
 console.log(sumWithInitial);
+// expected output: 10

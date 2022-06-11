@@ -1,7 +1,12 @@
-// find returns the value of the first element of the array that satisfies the given test function.
-//use case number of marbles collected
-const array1 = [5, 12, 8, 130, 44,54];
+// reduce executes a reduce function on each element of an array, returning a single value as a result.
+//use case sum of final average
+const array1 = [1, 2, 3, 4];
 
-const found = array1.find(element => element > 10);
+// 0 + 1 + 2 + 3 + 4
+const initialValue = 0;
+const sumWithInitial = array1.reduce(
+  (previousValue, currentValue) => previousValue + currentValue,
+  initialValue
+);
 
-console.log(found);
+console.log(sumWithInitial);

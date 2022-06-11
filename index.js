@@ -1,9 +1,10 @@
-//replace returns a new string with some or all matches of a pattern
-//use case select some pet
-const p = 'The quick brown fox jumps over the lazy dog. If the dog reacted, was it really lazy?';
-
-console.log(p.replace('dog', 'monkey', 'cat'));
-// expected output: "The quick brown fox jumps over the lazy monkey. If the dog reacted, was it really lazy?"
-
-const regex = /Dog/i;
-console.log(p.replace(regex, 'ferret'));
+//Hoisting is a term that you will not find used in any specification prior to ECMAScript® 2015 Language Specification. The concept of hoisting was intended as a general way of referring to how execution contexts work in JavaScript (specifically the creation and execution phases). However, the concept can be a bit confusing at first.
+//use case: anger changing the name of the person example below
+function nombreDelGato(nombre) {
+   console.log("El nombre de mi gato es " + nombre);
+ }
+ 
+ nombreDelGato("Maurizzio");
+ /*
+ El resultado del código es: "El nombre de mi gato es Maurizzio"
+ */

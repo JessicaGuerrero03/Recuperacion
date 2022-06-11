@@ -1,14 +1,8 @@
-//map es un array method que nos permite iterar sobre un arreglo 
-//la función callback provista una vez por elemento de un array, y construye un nuevo array con los resultados.
+// filter crea un nuevo array con todos los elementos que cumplan la condición implementada por la función dada.
+//caso de uso: seleccion de frutas 
+//EJEMPLO PRACTICO
+const words = ['cantaloupe', 'watermelon', 'strawberry', 'guava', 'peach'];
 
-//El siguiente código toma una serie de edades y crea nuevas edades que contiene los alumnos de nuevo ingreso.
-//Ejemplo practico
-var kvArray = [{alumno:1, edad:10},
-               {alumno:2, edad:20},
-               {alumno:3, edad: 30}];
+const result = words.filter(word => word.length > 6);
 
-var reformattedArray = kvArray.map(function(obj){
-   var rObj = {};
-   rObj[obj.alumno] = obj.edad;
-   return rObj;
-});
+console.log(result);

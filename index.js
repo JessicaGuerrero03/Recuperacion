@@ -1,5 +1,5 @@
 // filter crea un nuevo array con todos los elementos que cumplan la condición implementada por la función dada.
-//caso de uso: seleccion de frutas 
+//caso de uso: seleccion de frutas con el arreglo
 //EJEMPLO PRACTICO
 const words = ['cantaloupe', 'watermelon', 'strawberry', 'guava', 'peach'];
 

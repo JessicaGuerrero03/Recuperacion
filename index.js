@@ -1,8 +1,7 @@
-// filter crea un nuevo array con todos los elementos que cumplan la condición implementada por la función dada.
-//caso de uso: seleccion de frutas con el arreglo
-//EJEMPLO PRACTICO
-const words = ['cantaloupe', 'watermelon', 'strawberry', 'guava', 'peach'];
+// find returns the value of the first element of the array that satisfies the given test function.
+//use case number of marbles collected
+const array1 = [5, 12, 8, 130, 44];
 
-const result = words.filter(word => word.length > 6);
+const found = array1.find(element => element > 10);
 
-console.log(result);
+console.log(found);

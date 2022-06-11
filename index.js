@@ -5,7 +5,7 @@ function exitoCallback(resultado) {
  }
  
  function falloCallback(error) {
-   console.log("Error generando archivo de audio " + error);
+   console.log("Error generando archivo de audioo " + error);
  }
  
  crearArchivoAudioAsync(audioConfig, exitoCallback, falloCallback);

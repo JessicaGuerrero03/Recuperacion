@@ -4,7 +4,7 @@ function nombreDelGato(nombre) {
    console.log("El nombre de mi gato es " + nombre);
  }
  
- nombreDelGato("Maurizzio");
+ nombreDelGato("michi");
  /*
  El resultado del código es: "El nombre de mi gato es Maurizzio"
  */
